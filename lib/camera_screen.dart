@@ -9,7 +9,7 @@ import 'dart:io';
 import 'package:flutter/rendering.dart';
 import 'dart:ui' as ui;
 import 'package:image/image.dart' as img;
-import 'dart:typed_data'; // Import for ByteData and Uint8List
+// Import for ByteData and Uint8List
 import 'package:flutter/services.dart'; // Import for PlatformException
 import 'package:myapp/gallery_screen.dart'; // Import the gallery screen
 
