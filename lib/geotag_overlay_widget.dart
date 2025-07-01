@@ -6,10 +6,10 @@ class GeotagOverlayWidget extends StatelessWidget {
   final GeotagTemplate template;
 
   const GeotagOverlayWidget({
-    Key? key,
+    super.key,
     required this.position,
     required this.template,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
